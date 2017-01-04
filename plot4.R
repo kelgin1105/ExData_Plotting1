@@ -1,4 +1,3 @@
-setwd("C:\\Users\\ASUS\\Desktop\\coursera\\Exploratory Analysis")
 data <- "./data/household_power_consumption.txt"
 household <- read.table(data, header=TRUE, sep=";", stringsAsFactors=FALSE, dec=".")
 household$Date <- as.Date(household$Date, "%d/%m/%Y")
